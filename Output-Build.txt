@@ -1,0 +1,7 @@
+﻿1>------ Build started: Project: RIFA, Configuration: Debug Win32 ------
+1>RIFA_model.cpp
+1>c:\users\valea\source\repos\rifa\rifa\rifa_model.cpp(18): warning C4305: 'initializing': truncation from 'double' to 'float'
+1>c:\users\valea\source\repos\rifa\rifa\rifa_model.cpp(20): warning C4305: 'initializing': truncation from 'double' to 'float'
+1>RIFA.vcxproj -> C:\Users\valea\source\repos\RIFA\Debug\RIFA.exe
+1>Done building project "RIFA.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

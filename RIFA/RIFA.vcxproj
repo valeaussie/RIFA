@@ -123,6 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="RIFAmodel.cpp" />
+    <ClCompile Include="RIFA_firstGen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RIFA.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
