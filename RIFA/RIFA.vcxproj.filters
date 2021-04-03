@@ -21,10 +21,22 @@
     <ClCompile Include="RIFAmodel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OpenSph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RIFA.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="australia_administrative_boundaries_national_polygon.dbf" />
+    <None Include="australia_administrative_boundaries_national_polygon.prj" />
+    <None Include="australia_administrative_boundaries_national_polygon.shp" />
+    <None Include="australia_administrative_boundaries_national_polygon.shx" />
   </ItemGroup>
 </Project>

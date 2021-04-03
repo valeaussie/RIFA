@@ -6,6 +6,8 @@ using namespace std;
 //DEFINITIONS
 
 int firstGen();
+int OpenSph();
+//int IsIn();
 
 
 #endif

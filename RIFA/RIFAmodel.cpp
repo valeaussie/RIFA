@@ -13,9 +13,8 @@ using namespace std;
 int main() {
 
 	firstGen();
+	//OpenSph();
 
 	
 	return 0;
-
-
 }

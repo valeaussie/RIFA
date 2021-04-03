@@ -87,6 +87,8 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <UndefinePreprocessorDefinitions>%(UndefinePreprocessorDefinitions)</UndefinePreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -115,6 +117,8 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <UndefinePreprocessorDefinitions>%(UndefinePreprocessorDefinitions)</UndefinePreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,11 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IsIn.cpp" />
+    <ClCompile Include="OpenSph.cpp" />
     <ClCompile Include="RIFAmodel.cpp" />
     <ClCompile Include="RIFA_firstGen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RIFA.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="australia_administrative_boundaries_national_polygon.dbf" />
+    <None Include="australia_administrative_boundaries_national_polygon.prj" />
+    <None Include="australia_administrative_boundaries_national_polygon.shp" />
+    <None Include="australia_administrative_boundaries_national_polygon.shx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
